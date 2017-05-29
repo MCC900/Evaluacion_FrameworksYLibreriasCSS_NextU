@@ -1,6 +1,9 @@
+body {
+  background: #355;
+}
+
 .encabezado {
   background: url("../img/fondo-header.png");
-  background-size:contain;
   height: 12rem;
 }
 
@@ -33,6 +36,24 @@
   margin: 0.5rem;
 }
 
+.navegacion {
+  font-family: "Orbitron";
+  font-size: 2rem;
+}
+
+.navegacion ul li[class*="active"] a{
+  border:none !important;
+  background: #161616 !important;
+}
+
+.navegacion ul li a:link{
+  border-style: none;
+  border-radius: 0;
+}
+
+.navegacion ul li a:hover{
+  background: black !important;
+}
 
 @media (max-width:1199px) {
   .encabezado {
@@ -44,12 +65,31 @@
   .encabezado {
     height: 8rem;
   }
+
+  .navegacion {
+      font-size: 1.7rem;
+  }
 }
 
 @media (max-width:767px){
   .encabezado {
     height: 12vw;
     max-height: 8rem;
+  }
+
+  .navegacion {
+    font-size: 1.5rem;
+    margin: 0px !important;
+    padding: 0px  !important;
+  }
+
+  .navegacion ul li a {
+    padding: 8px;
+    margin: 0px !important;
+  }
+
+  .navegacion ul{
+    margin: 0px;
   }
 
   .redes-sociales {
