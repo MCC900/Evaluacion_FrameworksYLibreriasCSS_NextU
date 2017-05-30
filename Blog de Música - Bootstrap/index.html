@@ -10,29 +10,76 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <header class="row encabezado">
-      <div class="col-xs-5 col-sm-6 columna-logo">
-        <img class="logo" src="img/logo-blog-musica.png" alt="Blog de Música">
+    <div class="container-fluid">
+
+      <header class="row encabezado">
+        <div class="col-xs-5 col-sm-6 columna-logo">
+          <img class="logo" src="img/logo-blog-musica.png" alt="Blog de Música">
+        </div>
+        <div class="col-xs-7 col-sm-6 columna-redes">
+            <div class="redes-sociales">
+              <a href="#"><img class="img-rounded icono-red-social" src="img/facebook.png" alt="Perfil de Facebook"></a>
+              <a href="#"><img class="img-rounded icono-red-social" src="img/twitter.png" alt="Perfil de Facebook"></a>
+              <a href="#"><img class="img-rounded icono-red-social" src="img/instagram.png" alt="Perfil de Facebook"></a>
+              <a href="#"><img class="img-rounded icono-red-social" src="img/pinterest.png" alt="Perfil de Facebook"></a>
+              <a href="#"><img class="img-rounded icono-red-social" src="img/googleplus.png" alt="Perfil de Facebook"></a>
+            </div>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navegacion">
+            <ul class="nav nav-pills nav-justified">
+              <li class="active" ><a href="#">Inicio</a></li>
+              <li><a href="#">Artistas</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#">Música</a></li>
+              <li><a href="#">Letras</a></li>
+              <li><a href="#">Acordes</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="col-xs-7 col-sm-6 columna-redes">
-          <div class="redes-sociales">
-            <a href="#"><img class="img-rounded icono-red-social" src="img/facebook.png" alt="Perfil de Facebook"></a>
-            <a href="#"><img class="img-rounded icono-red-social" src="img/twitter.png" alt="Perfil de Facebook"></a>
-            <a href="#"><img class="img-rounded icono-red-social" src="img/instagram.png" alt="Perfil de Facebook"></a>
-            <a href="#"><img class="img-rounded icono-red-social" src="img/pinterest.png" alt="Perfil de Facebook"></a>
-            <a href="#"><img class="img-rounded icono-red-social" src="img/googleplus.png" alt="Perfil de Facebook"></a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 contenido">
+
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 busqueda">
+
+          <div class="row">
+            <div class="col-xs-12 cuadroBusqueda">
+              <form>
+                <div class="form-group">
+                  <label for="campoBusqueda">Buscar en el blog...</label>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="iconoBusq"><span class="glyphicon glyphicon-search"></span></span>
+                    <input class="form-control" type="text" id="campoBusqueda" name="campoBusqueda" aria-describedby="iconoBusq">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
+
+          <div class="row">
+            <div class="col-xs-12 opcionesBusqueda">
+
+              <label>Búsquedas recientes</label>
+              <div class="list-group listaOpcionesBusq">
+                <button type="button" class="list-group-item">grupos internacionales</button>
+                <button type="button" class="list-group-item">grupos nacionales</button>
+                <button type="button" class="list-group-item">rock</button>
+                <button type="button" class="list-group-item">rock melódico</button>
+                <button type="button" class="list-group-item">pop</button>
+                <button type="button" class="list-group-item">partituras</button>
+                <button type="button" class="list-group-item">historia de la música</button>
+                <button type="button" class="list-group-item">bandas actuales</button>
+                <button type="button" class="list-group-item">discos</button>
+                <button type="button" class="list-group-item">albumes</button>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
-    <nav class="navbar navbar-inverse navegacion">
-      <ul class="nav navbar-nav nav-tabs nav-justified">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#">Artistas</a></li>
-        <li><a href="#">Grupos</a></li>
-        <li><a href="#">Música</a></li>
-        <li><a href="#">Letras</a></li>
-        <li><a href="#">Acordes</a></li>
-      </ul>
-    </nav>
+    </div>
   </body>
 </html>
