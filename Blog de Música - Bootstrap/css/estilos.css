@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Orbitron";
+  src:url(../fonts/Orbitron-Medium.ttf);
+}
+
 body {
-  background: #111;
+  background: url("../img/fondo-cuerpo.png");
 }
 
 .encabezado {
@@ -38,6 +43,10 @@ body {
   margin: 0.5rem;
 }
 
+.fila-navegacion {
+  background-color: #111;
+}
+
 .navegacion{
   font-family: "Orbitron";
   font-size: 2rem;
@@ -46,15 +55,45 @@ body {
   padding: 0;
 }
 
+.fila-pagina {
+  height: auto;
+}
+
 .contenido {
-  height: 1000px;
+  height: auto;
   background: #068;
   z-index: 1;
   box-shadow: 0px 0px 5px black;
 }
 
+.articulo {
+  margin-top: 1rem;
+}
+
+.titulo-articulo {
+  font-family: "Orbitron";
+}
+
+.form-group {
+  margin: 0;
+}
+
+.caja-comentario {
+  border: 4px solid #6AF;
+  border-radius: 5px 5px 0 0;
+  border-bottom-style: none;
+}
+
+.boton-enviar-coment {
+  border: 4px solid #6AF;
+  background:#6AF;
+  color:#222;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+}
+
 .busqueda {
-  height: 1000px;
+  height: auto;
   background: #28A;
   z-index: 0;
   color: black;
@@ -97,7 +136,7 @@ body {
 
 @media (max-width:767px){
   .encabezado {
-    height: 12vw;
+    height: 15.5vw;
     max-height: 8rem;
   }
 
@@ -118,24 +157,14 @@ body {
   }
 
   .icono-red-social {
-    height: 3.5rem;
-    margin: 1px;
+    width: 16%;
+    max-height: 4rem;
+    height: auto;
+    margin: 0.75%;
     box-shadow: 2px 2px #008888;
   }
 
   .busqueda {
     display: none;
-  }
-}
-
-@media (max-width:400px){
-  .icono-red-social {
-    height: 2.4rem;
-    margin: 2px;
-    box-shadow: 2px 2px #008888;
-  }
-
-  .navegacion {
-    font-size: 1.2rem;
   }
 }
