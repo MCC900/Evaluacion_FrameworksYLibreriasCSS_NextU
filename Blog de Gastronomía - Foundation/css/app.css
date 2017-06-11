@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "BalooBhaina";
+  src:url(../fonts/BalooBhaina-Regular.ttf);
+}
+
+body {
+  background: url("../img/fondo.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+header {
+  background: #19F;
+  color: white;
+  border-bottom: 3px solid #448;
+}
+
+.colTituloSlogan {
+  border-right: 2px dashed white;
+  margin: 4px;
+}
+
+.filaTitulo {
+  height: 3rem;
+}
+
+.titulo {
+  font-family: "BalooBhaina";
+  font-size: 3rem;
+  margin: 0;
+}
+
+.filaSlogan {
+  font-family: "BalooBhaina";
+  height: 1rem;
+  text-align: right;
+}
+
+.filaPrincipal {
+  background: #FFB;
+}
+
+.seccionLateral {
+  border-right: 2px dashed #4BF;
+  margin: 4px;
+}
+
+.colLateral {
+  border-radius: 5px;
+  border: 2px solid #A95;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  background: #FC8;
+  height: 1000px;
+  margin-right: 4px;
+}
