@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
@@ -34,9 +35,30 @@
     <div class="row filaPrincipal">
 
       <!-- COLUMNA LATERAL -->
-      <section class="column small-12 medium-5 large-4 seccionLateral">
+      <section class="column small-12 medium-5 large-4 seccionLateral hide-for-small-only">
         <div class="row">
-          <div class="column colLateral">
+          <div class="column colLateral sombraSimple redondeado">
+
+              <!-- Búsqueda -->
+              <div class="row filaBusqueda align-center small-collapse">
+
+                <div class="column shrink colIconoBusqueda sombraSimple redondeado-izq">
+                    <i class="fi-magnifying-glass"></i>
+                </div>
+                <div class="column small-9 colCajaBusqueda">
+                    <input class="sombraSimple redondeado-der" type="text" placeholder="Buscar...">
+                </div>
+
+              </div>
+              <!-- Fin búsqueda -->
+              <!-- Navegación -->
+              <nav class="button-group stacked">
+                <a href="#" class="button redondeado-arr">Inicio</a>
+                <a href="#" class="button sin-redondeado ">Recetas favoritas</a>
+                <a href="#" class="button redondeado-aba">Mis recetas</a>
+              </nav>
+              <!-- Fin Navegación -->
+
 
           </div>
         </div>

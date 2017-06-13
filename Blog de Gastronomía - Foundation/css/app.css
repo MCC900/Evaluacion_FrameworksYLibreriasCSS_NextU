@@ -3,6 +3,34 @@
   src:url(../fonts/BalooBhaina-Regular.ttf);
 }
 
+.redondeado {
+  border-radius: 5px;
+}
+
+.redondeado-izq {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.redondeado-der {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.redondeado-arr {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.redondeado-aba {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sin-redondeado {
+  border-radius: 0px;
+}
+
+.sombraSimple {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
 body {
   background: url("../img/fondo.jpeg");
   background-size: cover;
@@ -47,10 +75,36 @@ header {
 }
 
 .colLateral {
-  border-radius: 5px;
-  border: 2px solid #A95;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  border: 1px solid #A95;
   background: #FC8;
   height: 1000px;
   margin-right: 4px;
+}
+
+.filaBusqueda {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+.colIconoBusqueda {
+  background: #19F;
+  color: white;
+  border: 1px solid #448;
+  padding: 0rem 0.5rem !important;
+  font-size: 1.3rem;
+  height: 100%;
+}
+
+.colCajaBusqueda {
+  height: 100%;
+}
+
+.colCajaBusqueda input {
+  border: 1px solid #448;
+  border-left-style: none !important;
+  height: 100%;
+}
+
+nav {
+  margin-top: 1rem;
 }
