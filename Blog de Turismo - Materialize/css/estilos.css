@@ -37,7 +37,7 @@ nav {
 
 .colSlogan {
   font-family: "IndieFlower";
-  font-size: 1.7rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -51,6 +51,38 @@ nav {
   margin: 10%;
 }
 
+.card-title {
+  font-family: "IndieFlower";
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+
+.contenidoArticulo {
+  margin-bottom: 0px !important;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.formComentario {
+  margin-top: 0px !important;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.formComentario h5 {
+  font-family: "IndieFlower";
+}
+@media (max-width:1000px) {
+  .colSlogan {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .colSlogan {
+    font-size: 1.7rem;
+  }
+}
 
 @media (max-width:600px) {
   .logo {

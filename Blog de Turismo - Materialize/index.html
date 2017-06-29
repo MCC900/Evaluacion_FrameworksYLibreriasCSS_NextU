@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="css/materialize.css">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
+
   <body class="blue lighten-1">
     <div class="contenedor">
+      <!-- FILA SUPERIOR -->
       <div class="row filaSuperior">
+        <!-- Logo -->
         <div class="col colLogo s12 m3 l2 green accent-3 valign-wrapper">
           <img class="logo responsive-img" src="img/logo-saltamundos.png" alt="Logo de Saltamundos" title="Logo de Saltamundos">
-
         </div>
+        <!-- Fin Logo -->
         <div class="col s12 m9 l10 colNavSlogan">
+          <!-- Navegación -->
           <div class="row filaNavegacion">
             <div class="col colNavegacion nav-wrapper s12 green darken-1">
               <nav>
@@ -26,14 +30,21 @@
               </nav>
             </div>
           </div>
+          <!-- Fin Navegación -->
+          <!-- Slogan -->
           <div class="row filaSlogan">
             <div class="col colSlogan">
               Saltamundos - Sobrevolando la Tierra
             </div>
           </div>
+          <!-- Fin Slogan -->
         </div>
       </div>
+      <!-- FIN FILA SUPERIOR -->
+
+      <!-- FILA REDES / GALERIA -->
       <div class="row filaRedesGaleria">
+        <!-- Redes Sociales -->
         <div class="col colRedes s2 m1 l1 green darken-1">
           <a href="#"><img class="iconoRedSocial circle blue z-depth-1" src="img/facebook.png" alt="Facebook" title="Facebook"></a>
           <a href="#"><img class="iconoRedSocial circle blue z-depth-1" src="img/googleplus.png" alt="Google Plus" title="Google Plus"></a>
@@ -41,6 +52,8 @@
           <a href="#"><img class="iconoRedSocial circle blue z-depth-1" src="img/instagram.png" alt="Instagram" title="Instagram"></a>
           <a href="#"><img class="iconoRedSocial circle blue z-depth-1" src="img/pinterest.png" alt="Pinterest" title="Pinterest"></a>
         </div>
+        <!-- Fin Redes Sociales -->
+        <!-- Galería de Fotos -->
         <div class="col s10 m11 l11 colGaleria">
           <div class="row filaGaleria">
             <div class="col s12 m6 l4 colFotosGal1">
@@ -57,8 +70,88 @@
             </div>
           </div>
         </div>
+        <!-- Fin Galería de Fotos -->
       </div>
+      <!-- FIN FILA REDES / GALERIA -->
+
+      <!-- FILA ARTICULO / INFO AUTOR -->
+      <div class="row filaArticuloAutor">
+
+        <!-- Artículos -->
+        <div class="col colArticulos s12 m8 l8">
+
+          <!-- Artículo 1-->
+          <div class="card white contenidoArticulo">
+            <div class="card-content">
+              <!-- Contenido del Artículo -->
+              <span class="card-title blue-text text-darken-2">Paseo por las Cataratas del Iguazú</span>
+
+              <div class="chip green-text text-darken-2">
+                22 de Junio de 2017 <i class="close material-icons">today</i>
+              </div>
+              <div class="chip green-text text-darken-2">
+                C. del Iguazú, Argentina<i class="close material-icons">location_on</i>
+              </div>
+              <div class="chip green-text text-darken-2">
+                2 Comentarios <i class="close material-icons">chat</i>
+              </div>
+
+              <div class="row">
+                <div class="col s12 m12 l6">
+                  <img class="responsive-img" src="img/cataratas-del-iguazu.jpg" alt="Cataratas del Iguazú" title="Cataratas del Iguazú">
+                </div>
+                <div class="col s12 m12 l6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fin Contenido del Artículo -->
+          <!-- Form para Comentario -->
+          <div class="card-panel formComentario green darken-3 white-text">
+            <h5>Deja tu Comentario</h5>
+            <form>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">perm_identity</i>
+                  <input  id="nombreUsuario" type="text" class="validate">
+                  <label for="nombreUsuario">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input  id="emailUsuario" type="email" class="validate">
+                  <label for="emailUsuario">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">chat</i>
+                  <input  id="comentario" type="text" class="validate">
+                  <label for="comentario">Comentario</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Fin Form para Comentario -->
+          <!-- Fin Artículo 1-->
+
+          <!-- Artículo 2-->
+          <!-- Fin Artículo 2-->
+        </div>
+        <!-- Fin Artículos -->
+
+        <!-- Info Autor -->
+        <div class="col colInfoAutor s12 m4 l4">
+
+        </div>
+        <!-- Fin Info Autor -->
+      </div>
+      <!-- FIN FILA ARTICULO / INFO AUTOR -->
     </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
