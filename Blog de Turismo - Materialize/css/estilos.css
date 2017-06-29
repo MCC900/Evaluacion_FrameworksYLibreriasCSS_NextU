@@ -72,6 +72,19 @@ nav {
 .formComentario h5 {
   font-family: "IndieFlower";
 }
+
+.cardPanelInfoAutor {
+  border-radius: 10px;
+}
+
+.nombre-autor {
+  font-family: "IndieFlower";
+}
+
+.texto-autor {
+  text-align: center;
+}
+
 @media (max-width:1000px) {
   .colSlogan {
     font-size: 2.5rem;
